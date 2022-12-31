@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gosto-ecommerce/static/css/main.115d7fb9.css",
+    "main.js": "/gosto-ecommerce/static/js/main.a990107e.js",
+    "static/media/Canvas.webp": "/gosto-ecommerce/static/media/Canvas.1a85ab7d7d8753106a18.webp",
+    "static/media/EllaShopify.webp": "/gosto-ecommerce/static/media/EllaShopify.7c6990f74d506e835249.webp",
+    "static/media/RealHomes-2.webp": "/gosto-ecommerce/static/media/RealHomes-2.6c85be3365719d9453c9.webp",
+    "static/media/RealHomes-3.webp": "/gosto-ecommerce/static/media/RealHomes-3.d8fdc306225323c8f22c.webp",
+    "static/media/woodMart-1.webp": "/gosto-ecommerce/static/media/woodMart-1.09a3fcda9f1ffcb4962c.webp",
+    "static/media/RealHomes-1.webp": "/gosto-ecommerce/static/media/RealHomes-1.4918d5ce4438db6a461f.webp",
+    "static/media/Metronic.webp": "/gosto-ecommerce/static/media/Metronic.991c8c65ac83244aebce.webp",
+    "static/media/3DModels-2.webp": "/gosto-ecommerce/static/media/3DModels-2.5066d206de0806e47ade.webp",
+    "static/media/woodMart-4.webp": "/gosto-ecommerce/static/media/woodMart-4.2752333a94c444671578.webp",
+    "static/media/3DModels-1.webp": "/gosto-ecommerce/static/media/3DModels-1.3e88cd47dcc89dddc499.webp",
+    "static/media/FloatingiPhone-2.webp": "/gosto-ecommerce/static/media/FloatingiPhone-2.1920a7282a40a66ec563.webp",
+    "static/media/FloatingiPhone-1.webp": "/gosto-ecommerce/static/media/FloatingiPhone-1.24eb16796c3b7832e5d0.webp",
+    "static/media/woodMart-2.webp": "/gosto-ecommerce/static/media/woodMart-2.db90f7f87ebd68d5714f.webp",
+    "static/media/FloatingiPhone-3.webp": "/gosto-ecommerce/static/media/FloatingiPhone-3.d39dd3a3097b5c605252.webp",
+    "static/media/woodMart-3.webp": "/gosto-ecommerce/static/media/woodMart-3.c29a0b0dfbcbf99c644c.webp",
+    "index.html": "/gosto-ecommerce/index.html",
+    "main.115d7fb9.css.map": "/gosto-ecommerce/static/css/main.115d7fb9.css.map",
+    "main.a990107e.js.map": "/gosto-ecommerce/static/js/main.a990107e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115d7fb9.css",
+    "static/js/main.a990107e.js"
+  ]
+}
