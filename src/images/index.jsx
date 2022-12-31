@@ -12,7 +12,7 @@ export { default as RealHomes2 } from "./RealHomes-2.webp";
 export { default as RealHomes3 } from "./RealHomes-3.webp";
 export { default as EllaShopify } from "./EllaShopify.webp";
 export { default as Metronic } from "./Metronic.webp";
-export { default as Canvas } from "./Canvas.webp";
+export { default as CanvasImg } from "./Canvas.webp";
 export { default as FloatingiPhone1 } from "./FloatingiPhone-1.webp";
 export { default as FloatingiPhone2 } from "./FloatingiPhone-2.webp";
 export { default as FloatingiPhone3 } from "./FloatingiPhone-3.webp";

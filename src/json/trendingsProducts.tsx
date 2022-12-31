@@ -1,5 +1,5 @@
 import {
-  Canvas,
+  CanvasImg,
   EllaShopify,
   FloatingiPhone1,
   FloatingiPhone2,
@@ -48,7 +48,7 @@ export const trendingsProducts: {
     price: "49$",
   },
   {
-    imgs: [Canvas],
+    imgs: [CanvasImg],
     title: "Canvas | The Multi-Purpose HTML5 Template",
     by: "SemiColonWeb",
     price: "16$",
