@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gosto-ecommerce/static/css/main.1fd69aac.css",
-    "main.js": "/gosto-ecommerce/static/js/main.ce22bd30.js",
+    "main.js": "/gosto-ecommerce/static/js/main.71c3dbda.js",
     "static/media/bestProduct-2.webp": "/gosto-ecommerce/static/media/bestProduct-2.1788bfae86024f8f0c9d.webp",
     "static/media/Canvas.webp": "/gosto-ecommerce/static/media/Canvas.1a85ab7d7d8753106a18.webp",
     "static/media/EllaShopify.webp": "/gosto-ecommerce/static/media/EllaShopify.7c6990f74d506e835249.webp",
@@ -21,10 +21,10 @@
     "static/media/woodMart-3.webp": "/gosto-ecommerce/static/media/woodMart-3.c29a0b0dfbcbf99c644c.webp",
     "index.html": "/gosto-ecommerce/index.html",
     "main.1fd69aac.css.map": "/gosto-ecommerce/static/css/main.1fd69aac.css.map",
-    "main.ce22bd30.js.map": "/gosto-ecommerce/static/js/main.ce22bd30.js.map"
+    "main.71c3dbda.js.map": "/gosto-ecommerce/static/js/main.71c3dbda.js.map"
   },
   "entrypoints": [
     "static/css/main.1fd69aac.css",
-    "static/js/main.ce22bd30.js"
+    "static/js/main.71c3dbda.js"
   ]
 }
