@@ -36,6 +36,9 @@ body {
 .rounded-20px {
   border-radius: 20px;
 }
+.rounded-50px {
+  border-radius: 50px !important;
+}
 .max-w-300px {
   max-width: 300px;
 }

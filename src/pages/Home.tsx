@@ -1,4 +1,9 @@
-import { Categories, HeroHeader, TrendingsProducts } from "../components";
+import {
+  BestProducts,
+  Categories,
+  HeroHeader,
+  TrendingsProducts,
+} from "../components";
 
 const Home = () => {
   return (
@@ -6,6 +11,7 @@ const Home = () => {
       <HeroHeader />
       <Categories />
       <TrendingsProducts />
+      <BestProducts />
     </>
   );
 };

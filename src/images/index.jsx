@@ -18,3 +18,5 @@ export { default as FloatingiPhone2 } from "./FloatingiPhone-2.webp";
 export { default as FloatingiPhone3 } from "./FloatingiPhone-3.webp";
 export { default as ThreeDModels1 } from "./3DModels-1.webp";
 export { default as ThreeDModels2 } from "./3DModels-2.webp";
+export { default as BestProducts1 } from "./bestProduct-1.webp";
+export { default as BestProducts2 } from "./bestProduct-2.webp";
