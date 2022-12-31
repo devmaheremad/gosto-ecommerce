@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*:not(i) {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  margin: 0;
+  background-color: #f6f7f8;
+}
+.textDecoration {
+  text-decoration: none;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+.fullHeight {
+  height: 100%;
+}
+.fullWidth {
+  width: 100%;
+}
+.w-300px {
+  width: 300px !important;
+}
+.w-200px {
+  width: 200px !important;
+}
+.h-300px {
+  height: 130px !important;
+}
+.img-responsive {
+  width: 100%;
+  object-fit: cover;
+}
+.rounded-20px {
+  border-radius: 20px;
+}
+.max-w-300px {
+  max-width: 300px;
+}
+.swiper-pagination-bullet {
+  background: #f6f7f8 !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #ff5400 !important;
+}
+.position-relative {
+  position: relative;
+}
+.TrendingsProductSwiper .swiper-pagination {
+  background: #000000b3;
+  border-radius: 50px;
+  width: 60% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  bottom: 6% !important;
+}
