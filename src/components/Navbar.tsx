@@ -41,7 +41,7 @@ const Navbar = () => {
         <Box maxWidth={"2000px"} width={"100%"}>
           <Toolbar sx={{ px: { xs: 2, sm: 3, md: 4, lg: 8, xl: 10 } }}>
             <Box mr={3} display={{ xs: "none", md: "block" }}>
-              <Link to="/">
+              <Link to="/gosto-ecommerce">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -132,7 +132,11 @@ const Navbar = () => {
               >
                 <Box minWidth={"150px"}>
                   <MenuItem onClick={handleCloseNavMenu}>
-                    <Link to="/" color={"black"} className="textDecoration">
+                    <Link
+                      to="/gosto-ecommerce"
+                      color={"black"}
+                      className="textDecoration"
+                    >
                       <Typography
                         variant="body1"
                         fontWeight={"600"}
@@ -198,7 +202,7 @@ const Navbar = () => {
               </Menu>
             </Box>
             <Box sx={{ display: { xs: "flex", md: "none", flexGrow: 1 } }}>
-              <Link to="/">
+              <Link to="/gosto-ecommerce">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -252,7 +256,11 @@ const Navbar = () => {
             </Box>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               <Box display={"flex"} flexDirection={"row"} gap={"35px"}>
-                <Link to="/" color={"black"} className="textDecoration">
+                <Link
+                  to="/gosto-ecommerce"
+                  color={"black"}
+                  className="textDecoration"
+                >
                   <Typography variant="body1" fontWeight={"600"} color="black">
                     Home
                   </Typography>
