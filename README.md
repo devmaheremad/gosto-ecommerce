@@ -1,6 +1,6 @@
 # **Gosto E-Commerce Project**
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/RjMPhzV/gosto-ecommerce.png)
+###### ![Gosto E-Commerce home page](https://i.ibb.co/JCNFNXb/gosto-ecommerce.webp)
 
 ###### [Watch it here live](http://devmaher.github.io/gosto-ecommerce)
 
