@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/gosto-ecommerce" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
