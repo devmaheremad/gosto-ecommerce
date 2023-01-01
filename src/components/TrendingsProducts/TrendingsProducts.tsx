@@ -4,7 +4,7 @@ import TrendingsProduct from "./TrendingsProduct";
 
 const TrendingsProducts = () => {
   return (
-    <Box my={6} maxWidth={"2500px"} mx={"auto"}>
+    <Box mb={6} maxWidth={"2500px"} mx={"auto"}>
       <Typography
         variant="h4"
         fontWeight={500}

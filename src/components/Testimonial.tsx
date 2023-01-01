@@ -1,8 +1,10 @@
+import { Box } from "@mui/material";
+
 const Testimonial = () => {
   return (
-    <div>
+    <Box mb={6}>
       <h1>Testimonial</h1>
-    </div>
+    </Box>
   );
 };
 

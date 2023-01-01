@@ -1,8 +1,10 @@
+import { Box } from "@mui/material";
+
 const BlogPosts = () => {
   return (
-    <div>
+    <Box mb={6}>
       <h1>BlogPosts</h1>
-    </div>
+    </Box>
   );
 };
 

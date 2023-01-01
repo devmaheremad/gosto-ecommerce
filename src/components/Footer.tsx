@@ -1,8 +1,10 @@
+import { Box } from "@mui/material";
+
 const Footer = () => {
   return (
-    <div>
+    <Box>
       <h1>Footer</h1>
-    </div>
+    </Box>
   );
 };
 

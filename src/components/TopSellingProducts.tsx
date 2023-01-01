@@ -6,7 +6,7 @@ const TopSellingProducts = () => {
   return (
     <Stack
       direction={"column"}
-      my={6}
+      mb={6}
       maxWidth={"2500px"}
       mx={"auto"}
       px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
@@ -148,7 +148,6 @@ const TopSellingProducts = () => {
         </Box>
       </Box>
       <Box
-        mb={4}
         mt={4}
         gap={"25px"}
         display={"flex"}

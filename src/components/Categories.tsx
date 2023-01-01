@@ -15,6 +15,7 @@ import {
 const Categories = () => {
   return (
     <Box
+      mb={6}
       display={"flex"}
       justifyContent={"center"}
       maxWidth={"2500px"}
