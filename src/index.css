@@ -60,3 +60,10 @@ body {
   transform: translateX(-50%);
   bottom: 6% !important;
 }
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff5400;
+}
