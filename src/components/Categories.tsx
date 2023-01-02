@@ -34,7 +34,7 @@ const Categories = () => {
       >
         {categoriesSwiperSvg.map((slide, i) => {
           return (
-            <SwiperSlide key={i} className="w-300px h-300px">
+            <SwiperSlide key={i} className="w-300px h-130px">
               <Stack
                 bgcolor={"white"}
                 borderRadius={"15px"}
@@ -66,7 +66,7 @@ const Categories = () => {
         })}
         {categoriesSwiperImg.map((slide, i) => {
           return (
-            <SwiperSlide key={i} className="w-300px h-300px">
+            <SwiperSlide key={i} className="w-300px h-130px">
               <Stack
                 bgcolor={"white"}
                 borderRadius={"15px"}
