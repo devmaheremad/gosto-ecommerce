@@ -4,7 +4,7 @@ import {
   Categories,
   HeroHeader,
   Prices,
-  Testimonial,
+  Testimonials,
   TopSellingProducts,
   TrendingsProducts,
 } from "../components";
@@ -18,7 +18,7 @@ const Home = () => {
       <BestProducts />
       <TopSellingProducts />
       <Prices />
-      <Testimonial />
+      <Testimonials />
       <BlogPosts />
     </>
   );

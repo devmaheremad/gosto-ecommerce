@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
-const Testimonial = () => {
+const Testimonials = () => {
   return (
     <Box mb={6}>
-      <h1>Testimonial</h1>
+      <h1>Testimonials</h1>
     </Box>
   );
 };
 
-export default Testimonial;
+export default Testimonials;
