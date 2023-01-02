@@ -37,7 +37,7 @@ const UnlimitedPrices = () => {
         </Typography>
       </Box>
       <Typography mt={2} mb={6} variant="subtitle2" color={"#6c8eb6c2"}>
-        Declutter your mind and save time with Premium.
+        Declutter your mind and save time with Unlimited.
       </Typography>
       <Button
         className="rounded-50px"
