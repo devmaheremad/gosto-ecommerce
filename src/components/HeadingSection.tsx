@@ -13,7 +13,7 @@ const HeadingSection = ({
         variant="h4"
         fontWeight={500}
         textAlign={
-          textAlign === "start" ? "start" : { xs: "center", lg: "start" }
+          textAlign === "center" ? "center" : { xs: "center", lg: "start" }
         }
         color={h4WordsColor}
       >
@@ -23,7 +23,7 @@ const HeadingSection = ({
         variant="subtitle1"
         color={colors.grey[500]}
         textAlign={
-          textAlign === "start" ? "start" : { xs: "center", lg: "start" }
+          textAlign === "center" ? "center" : { xs: "center", lg: "start" }
         }
       >
         {subtitle1Words}

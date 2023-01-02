@@ -7,7 +7,7 @@ const TrendingsProducts = () => {
   return (
     <Box mb={6} maxWidth={"2500px"} mx={"auto"}>
       <HeadingSection
-        textAlign="centerStart"
+        textAlign="center"
         h4Words="Trendings Products"
         subtitle1Words="Check the hottest designs of the week. These rising stars are worth your
         attention."

@@ -1,5 +1,6 @@
-import { Box, colors, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
+import { HeadingSection } from "../index";
 import { FreePrices, PremiumPrices, UnlimitedPrices } from "./index";
 
 const Prices = () => {
@@ -12,21 +13,12 @@ const Prices = () => {
       minHeight={"850px"}
     >
       <Box maxWidth={"2500px"} mx={"auto"}>
-        <Typography
-          variant="h4"
-          fontWeight={500}
-          textAlign={"center"}
-          color="white"
-        >
-          Top Selling Products
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          color={colors.grey[500]}
-          textAlign={"center"}
-        >
-          Meet our newbies! The latest templates uploaded to the marketplace.
-        </Typography>
+        <HeadingSection
+          h4Words="Choose Your Plans"
+          subtitle1Words="Take control of your path forward with our Plans, select the option that aligns with your goals and get started now."
+          h4WordsColor="white"
+          textAlign="center"
+        />
         <Grid2 container spacing={2} mt={5} justifyContent={"center"}>
           <FreePrices />
           <PremiumPrices />

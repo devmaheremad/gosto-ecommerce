@@ -18,25 +18,10 @@ const TopSellingProducts = () => {
         flexDirection={{ xs: "column", lg: "row" }}
       >
         <Box minWidth={{ lg: "580px" }}>
-          <Typography
-            variant="h4"
-            fontWeight={500}
-            textAlign={{ xs: "center", lg: "start" }}
-            color="black"
-          >
-            Top Selling Products
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            color={colors.grey[500]}
-            textAlign={{ xs: "center", lg: "start" }}
-          >
-            Meet our newbies! The latest templates uploaded to the marketplace.
-          </Typography>
           <HeadingSection
-            textAlign="start"
+            textAlign="centerStart"
             h4Words="Top Selling Products"
-            subtitle1Words="Meet our newbies! The latest templates uploaded to the marketplace."
+            subtitle1Words="Stay ahead of the curve and shop the Top Selling Products"
             h4WordsColor="black"
           />
         </Box>
