@@ -5,7 +5,7 @@ export { default as Categories } from "./Categories";
 export { default as HeroHeader } from "./HeroHeader";
 export { default as Prices } from "./Prices/Prices";
 export { default as Footer } from "./Footer";
-export { default as Testimonials } from "./Testimonials";
+export { default as Testimonials } from "./Testimonials/Testimonials";
 export { default as HeadingSection } from "./HeadingSection";
 export { default as TopSellingProducts } from "./TopSellingProducts";
 export { default as TrendingsProducts } from "./TrendingsProducts/TrendingsProducts";

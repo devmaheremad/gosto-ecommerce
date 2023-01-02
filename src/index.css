@@ -8,6 +8,34 @@ body {
   margin: 0;
   background-color: #f6f7f8;
 }
+
+/* testimonialsSwiper */
+.testimonialsSwiper {
+  max-width: 98%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.testimonialsSwiper .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+/* TrendingsProductSwiper */
+.TrendingsProductSwiper .swiper-pagination {
+  background: #000000b3;
+  border-radius: 50px;
+  width: 60% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  bottom: 6% !important;
+}
+
+/* svgContainer */
+.svgContainer,
+.svgContainer svg {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Framework Classes */
 .textDecoration {
   text-decoration: none;
 }
@@ -26,8 +54,14 @@ body {
 .w-200px {
   width: 200px !important;
 }
-.h-300px {
+.h-420px {
+  height: 420px !important;
+}
+.h-130px {
   height: 130px !important;
+}
+.h-365px {
+  height: 365px !important;
 }
 .img-responsive {
   width: 100%;
@@ -45,6 +79,8 @@ body {
 .swiper-pagination-bullet {
   background: #f6f7f8 !important;
   opacity: 1 !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 8px 0px rgb(0 0 0 / 38%);
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #ff5400 !important;
@@ -52,18 +88,17 @@ body {
 .position-relative {
   position: relative;
 }
-.TrendingsProductSwiper .swiper-pagination {
-  background: #000000b3;
-  border-radius: 50px;
-  width: 60% !important;
-  left: 50% !important;
-  transform: translateX(-50%);
-  bottom: 6% !important;
-}
 ::-webkit-scrollbar {
   width: 5px;
   height: 3px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #ff5400;
+}
+.p-10px {
+  padding: 10px !important;
+}
+
+.pt-32px {
+  padding-top: 32px !important;
 }
