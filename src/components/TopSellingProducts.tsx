@@ -34,6 +34,7 @@ const TopSellingProducts = () => {
             Meet our newbies! The latest templates uploaded to the marketplace.
           </Typography>
           <HeadingSection
+            textAlign="start"
             h4Words="Top Selling Products"
             subtitle1Words="Meet our newbies! The latest templates uploaded to the marketplace."
             h4WordsColor="black"

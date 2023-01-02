@@ -1,4 +1,4 @@
-import { Box, colors, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { trendingsProducts } from "../../json/trendingsProducts";
 import { HeadingSection } from "../index";
 import TrendingsProduct from "./TrendingsProduct";
@@ -7,6 +7,7 @@ const TrendingsProducts = () => {
   return (
     <Box mb={6} maxWidth={"2500px"} mx={"auto"}>
       <HeadingSection
+        textAlign="centerStart"
         h4Words="Trendings Products"
         subtitle1Words="Check the hottest designs of the week. These rising stars are worth your
         attention."
