@@ -20,6 +20,8 @@ const HeadingSection = ({
         {h4Words}
       </Typography>
       <Typography
+        maxWidth={"500px"}
+        mx={"auto"}
         variant="subtitle1"
         color={colors.grey[500]}
         textAlign={
