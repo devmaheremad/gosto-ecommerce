@@ -24,6 +24,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
         <>
           <Box position={"relative"}>
             <Swiper
+              grabCursor={true}
               pagination={{
                 clickable: true,
               }}
