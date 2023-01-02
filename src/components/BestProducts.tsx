@@ -10,7 +10,7 @@ const BestProducts = () => {
       maxWidth={"2500px"}
       mx={"auto"}
       direction={{ xs: "column", lg: "row" }}
-      mb={6}
+      mb={10}
     >
       <Box
         height={"300px"}

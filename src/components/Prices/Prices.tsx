@@ -7,7 +7,7 @@ const Prices = () => {
   return (
     <Box
       py={10}
-      mb={6}
+      mb={10}
       bgcolor={"#0a2748"}
       px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
       minHeight={"850px"}
@@ -19,7 +19,7 @@ const Prices = () => {
           h4WordsColor="white"
           textAlign="center"
         />
-        <Grid2 container spacing={2} mt={5} justifyContent={"center"}>
+        <Grid2 container spacing={2} mt={6} justifyContent={"center"}>
           <FreePrices />
           <PremiumPrices />
           <UnlimitedPrices />

@@ -5,7 +5,7 @@ import TrendingsProduct from "./TrendingsProduct";
 
 const TrendingsProducts = () => {
   return (
-    <Box mb={6} maxWidth={"2500px"} mx={"auto"}>
+    <Box mb={10} maxWidth={"2500px"} mx={"auto"}>
       <HeadingSection
         textAlign="center"
         h4Words="Trendings Products"
@@ -14,8 +14,7 @@ const TrendingsProducts = () => {
         h4WordsColor="black"
       />
       <Box
-        mb={4}
-        mt={2}
+        mt={6}
         gap={"25px"}
         display={"flex"}
         flexWrap={"wrap"}

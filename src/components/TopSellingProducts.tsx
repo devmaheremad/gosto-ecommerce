@@ -1,4 +1,4 @@
-import { Box, Button, colors, Stack, Typography } from "@mui/material";
+import { Box, Button, Stack } from "@mui/material";
 import { trendingsProducts } from "../json/trendingsProducts";
 import { HeadingSection } from "./index";
 import TrendingsProduct from "./TrendingsProducts/TrendingsProduct";
@@ -7,7 +7,7 @@ const TopSellingProducts = () => {
   return (
     <Stack
       direction={"column"}
-      mb={6}
+      mb={10}
       maxWidth={"2500px"}
       mx={"auto"}
       px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
@@ -140,7 +140,7 @@ const TopSellingProducts = () => {
         </Box>
       </Box>
       <Box
-        mt={4}
+        mt={6}
         gap={"25px"}
         display={"flex"}
         flexWrap={"wrap"}
