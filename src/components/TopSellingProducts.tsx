@@ -1,5 +1,6 @@
 import { Box, Button, colors, Stack, Typography } from "@mui/material";
 import { trendingsProducts } from "../json/trendingsProducts";
+import { HeadingSection } from "./index";
 import TrendingsProduct from "./TrendingsProducts/TrendingsProduct";
 
 const TopSellingProducts = () => {
@@ -32,6 +33,11 @@ const TopSellingProducts = () => {
           >
             Meet our newbies! The latest templates uploaded to the marketplace.
           </Typography>
+          <HeadingSection
+            h4Words="Top Selling Products"
+            subtitle1Words="Meet our newbies! The latest templates uploaded to the marketplace."
+            h4WordsColor="black"
+          />
         </Box>
         <Box
           height={"55px"}
