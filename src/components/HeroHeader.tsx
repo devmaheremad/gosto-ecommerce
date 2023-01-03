@@ -26,7 +26,7 @@ const HeroHeader = () => {
     >
       <Typography
         component={"h1"}
-        mb={"-25px"}
+        mb={{ xs: "-18px", sm: "-22px" }}
         textAlign={"center"}
         variant="h4"
         fontWeight={"500"}
