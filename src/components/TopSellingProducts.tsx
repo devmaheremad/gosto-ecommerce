@@ -5,7 +5,14 @@ import TrendingsProduct from "./TrendingsProducts/TrendingsProduct";
 
 const TopSellingProducts = () => {
   return (
-    <Stack direction={"column"} mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
+    <Stack
+      component={"section"}
+      direction={"column"}
+      mb={10}
+      maxWidth={"2500px"}
+      mx={"auto"}
+      p={2}
+    >
       <Box
         gap={"40px"}
         display={"flex"}

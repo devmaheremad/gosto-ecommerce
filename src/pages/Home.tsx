@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import {
   BestProducts,
   BlogPosts,
@@ -11,7 +12,7 @@ import {
 
 const Home = () => {
   return (
-    <>
+    <Box component={"main"}>
       <HeroHeader />
       <Categories />
       <TrendingsProducts />
@@ -20,7 +21,7 @@ const Home = () => {
       <Prices />
       <Testimonials />
       <BlogPosts />
-    </>
+    </Box>
   );
 };
 

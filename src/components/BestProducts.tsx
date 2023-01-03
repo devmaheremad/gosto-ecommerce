@@ -4,6 +4,7 @@ import { BestProducts1, BestProducts2 } from "../images";
 const BestProducts = () => {
   return (
     <Stack
+      component={"section"}
       spacing={2}
       maxWidth={"2500px"}
       p={2}

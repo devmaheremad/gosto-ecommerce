@@ -15,6 +15,7 @@ import {
 const Categories = () => {
   return (
     <Box
+      component={"section"}
       mb={10}
       display={"flex"}
       justifyContent={"center"}

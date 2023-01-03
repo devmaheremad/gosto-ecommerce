@@ -6,6 +6,7 @@ import { FreePrices, PremiumPrices, UnlimitedPrices } from "./index";
 const Prices = () => {
   return (
     <Box
+      component={"section"}
       py={10}
       mb={10}
       bgcolor={"#0a2748"}

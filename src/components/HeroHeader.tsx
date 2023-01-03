@@ -11,6 +11,7 @@ import { HeroSectionBG } from "../images";
 const HeroHeader = () => {
   return (
     <Stack
+      component={"section"}
       mb={6}
       px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
       direction={"column"}

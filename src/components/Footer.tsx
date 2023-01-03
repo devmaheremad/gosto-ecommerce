@@ -5,6 +5,7 @@ import SocialLink from "./SocialLink";
 const Footer = () => {
   return (
     <Box
+      component={"footer"}
       py={8}
       bgcolor={"#312620"}
       color={"#f6f7f8"}
