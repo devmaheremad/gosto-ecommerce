@@ -1,9 +1,15 @@
 {
   "files": {
     "main.css": "/gosto-ecommerce/static/css/main.8faa0a8f.css",
-    "main.js": "/gosto-ecommerce/static/js/main.f931007c.js",
+    "main.js": "/gosto-ecommerce/static/js/main.a7bd2746.js",
+    "static/media/shopPage.webp": "/gosto-ecommerce/static/media/shopPage.03823119e2ffb1edf89d.webp",
+    "static/media/contactImg.gif": "/gosto-ecommerce/static/media/contactImg.3562ffbee753494250d8.gif",
+    "static/media/about.gif": "/gosto-ecommerce/static/media/about.8311e4d320dd348034a1.gif",
+    "static/media/profileImg.gif": "/gosto-ecommerce/static/media/profileImg.a308270128f4d3c5514d.gif",
+    "static/media/blog.gif": "/gosto-ecommerce/static/media/blog.f0c24cf5ca3fc80ef346.gif",
     "static/media/bestProduct-2.webp": "/gosto-ecommerce/static/media/bestProduct-2.1788bfae86024f8f0c9d.webp",
     "static/media/woodMart-2.webp": "/gosto-ecommerce/static/media/woodMart-2.8a782cf5afabb08b27f3.webp",
+    "static/media/favoriteImg.gif": "/gosto-ecommerce/static/media/favoriteImg.f9fcfae7cfbf32590ba4.gif",
     "static/media/woodMart-4.webp": "/gosto-ecommerce/static/media/woodMart-4.66c8f0bf7ae491e67230.webp",
     "static/media/Canvas.webp": "/gosto-ecommerce/static/media/Canvas.1a85ab7d7d8753106a18.webp",
     "static/media/EllaShopify.webp": "/gosto-ecommerce/static/media/EllaShopify.993275d2eefb951c160e.webp",
@@ -24,10 +30,10 @@
     "static/media/woodMart-3.webp": "/gosto-ecommerce/static/media/woodMart-3.c29a0b0dfbcbf99c644c.webp",
     "index.html": "/gosto-ecommerce/index.html",
     "main.8faa0a8f.css.map": "/gosto-ecommerce/static/css/main.8faa0a8f.css.map",
-    "main.f931007c.js.map": "/gosto-ecommerce/static/js/main.f931007c.js.map"
+    "main.a7bd2746.js.map": "/gosto-ecommerce/static/js/main.a7bd2746.js.map"
   },
   "entrypoints": [
     "static/css/main.8faa0a8f.css",
-    "static/js/main.f931007c.js"
+    "static/js/main.a7bd2746.js"
   ]
 }
