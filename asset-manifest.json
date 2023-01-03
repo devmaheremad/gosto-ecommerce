@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/gosto-ecommerce/static/css/main.8faa0a8f.css",
-    "main.js": "/gosto-ecommerce/static/js/main.a936d4fe.js",
+    "main.js": "/gosto-ecommerce/static/js/main.f931007c.js",
     "static/media/bestProduct-2.webp": "/gosto-ecommerce/static/media/bestProduct-2.1788bfae86024f8f0c9d.webp",
+    "static/media/woodMart-2.webp": "/gosto-ecommerce/static/media/woodMart-2.8a782cf5afabb08b27f3.webp",
+    "static/media/woodMart-4.webp": "/gosto-ecommerce/static/media/woodMart-4.66c8f0bf7ae491e67230.webp",
     "static/media/Canvas.webp": "/gosto-ecommerce/static/media/Canvas.1a85ab7d7d8753106a18.webp",
-    "static/media/EllaShopify.webp": "/gosto-ecommerce/static/media/EllaShopify.7c6990f74d506e835249.webp",
+    "static/media/EllaShopify.webp": "/gosto-ecommerce/static/media/EllaShopify.993275d2eefb951c160e.webp",
     "static/media/RealHomes-2.webp": "/gosto-ecommerce/static/media/RealHomes-2.6c85be3365719d9453c9.webp",
     "static/media/RealHomes-3.webp": "/gosto-ecommerce/static/media/RealHomes-3.d8fdc306225323c8f22c.webp",
     "static/media/bestProduct-1.webp": "/gosto-ecommerce/static/media/bestProduct-1.89591081c611f0355766.webp",
@@ -14,20 +16,18 @@
     "static/media/blogPost1.webp": "/gosto-ecommerce/static/media/blogPost1.0d7ed126af40b6780e4b.webp",
     "static/media/3DModels-2.webp": "/gosto-ecommerce/static/media/3DModels-2.5066d206de0806e47ade.webp",
     "static/media/blogPost3.webp": "/gosto-ecommerce/static/media/blogPost3.5c7f807fc19114ce9e3b.webp",
-    "static/media/woodMart-4.webp": "/gosto-ecommerce/static/media/woodMart-4.2752333a94c444671578.webp",
     "static/media/3DModels-1.webp": "/gosto-ecommerce/static/media/3DModels-1.3e88cd47dcc89dddc499.webp",
     "static/media/FloatingiPhone-2.webp": "/gosto-ecommerce/static/media/FloatingiPhone-2.1920a7282a40a66ec563.webp",
     "static/media/FloatingiPhone-1.webp": "/gosto-ecommerce/static/media/FloatingiPhone-1.24eb16796c3b7832e5d0.webp",
-    "static/media/woodMart-2.webp": "/gosto-ecommerce/static/media/woodMart-2.db90f7f87ebd68d5714f.webp",
     "static/media/blogPost2.webp": "/gosto-ecommerce/static/media/blogPost2.6bed42508a7bb3de1b4a.webp",
     "static/media/FloatingiPhone-3.webp": "/gosto-ecommerce/static/media/FloatingiPhone-3.d39dd3a3097b5c605252.webp",
     "static/media/woodMart-3.webp": "/gosto-ecommerce/static/media/woodMart-3.c29a0b0dfbcbf99c644c.webp",
     "index.html": "/gosto-ecommerce/index.html",
     "main.8faa0a8f.css.map": "/gosto-ecommerce/static/css/main.8faa0a8f.css.map",
-    "main.a936d4fe.js.map": "/gosto-ecommerce/static/js/main.a936d4fe.js.map"
+    "main.f931007c.js.map": "/gosto-ecommerce/static/js/main.f931007c.js.map"
   },
   "entrypoints": [
     "static/css/main.8faa0a8f.css",
-    "static/js/main.a936d4fe.js"
+    "static/js/main.f931007c.js"
   ]
 }
