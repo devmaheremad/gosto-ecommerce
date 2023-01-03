@@ -8,28 +8,28 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
+import { Autoplay } from "swiper";
+
 import BlogCard from "./BlogCard";
 import { blogsData } from "../../data/blogsData";
 
 const BlogPosts = () => {
   return (
-    <Box mb={10}>
-      <Box
-        maxWidth={"2500px"}
-        mx={"auto"}
-        px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
-      >
-        <HeadingSection
-          textAlign="center"
-          h4Words="Latest Blog Posts"
-          subtitle1Words="Latest marketplace news, success stories and tutorials."
-          h4WordsColor="black"
-        />
-      </Box>
+    <Box mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
+      <HeadingSection
+        textAlign="center"
+        h4Words="Latest Blog Posts"
+        subtitle1Words="Latest marketplace news, success stories and tutorials."
+        h4WordsColor="black"
+      />
       <Box mt={2} position={"relative"}>
         <Swiper
+          modules={[Autoplay]}
+          autoplay={{
+            delay: 12000,
+            disableOnInteraction: false,
+          }}
           grabCursor={true}
-          style={{ maxWidth: "98%", paddingLeft: "2px", paddingRight: "2px" }}
           loop={true}
           slidesPerView={1}
           spaceBetween={20}

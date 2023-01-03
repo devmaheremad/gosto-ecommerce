@@ -10,11 +10,7 @@ body {
 }
 
 /* testimonialsSwiper */
-.testimonialsSwiper {
-  max-width: 98%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .testimonialsSwiper .swiper-pagination-bullet {
   background: #fff !important;
 }

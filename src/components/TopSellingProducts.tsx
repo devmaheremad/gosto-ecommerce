@@ -1,17 +1,11 @@
-import { Box, Button, Stack } from "@mui/material";
+import { Box, Button, Grid, Stack } from "@mui/material";
 import { trendingsProducts } from "../data/trendingsProducts";
 import { HeadingSection } from "./index";
 import TrendingsProduct from "./TrendingsProducts/TrendingsProduct";
 
 const TopSellingProducts = () => {
   return (
-    <Stack
-      direction={"column"}
-      mb={10}
-      maxWidth={"2500px"}
-      mx={"auto"}
-      px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
-    >
+    <Stack direction={"column"} mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
       <Box
         gap={"40px"}
         display={"flex"}
@@ -147,9 +141,11 @@ const TopSellingProducts = () => {
         alignItems={"center"}
         justifyContent={"center"}
       >
-        {trendingsProducts.map((product, i) => {
-          return <TrendingsProduct product={product} key={i} />;
-        })}
+        <Grid container mt={6} spacing={"15px"}>
+          {trendingsProducts.map((product, i) => {
+            return <TrendingsProduct product={product} key={i} />;
+          })}
+        </Grid>
       </Box>
     </Stack>
   );

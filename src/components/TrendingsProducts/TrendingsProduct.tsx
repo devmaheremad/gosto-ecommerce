@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
-import { Box, colors, IconButton, Typography } from "@mui/material";
+import { Box, colors, Grid, IconButton, Typography } from "@mui/material";
 
 const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
   const { title, by, imgs, price } = product;
@@ -19,20 +19,31 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
   };
 
   return (
-    <Box position={"relative"} width={"300px"} height={"400px"}>
+    <Grid
+      item
+      xs={12}
+      sm={6}
+      lg={4}
+      xl={3}
+      position={"relative"}
+      height={"600px"}
+    >
       {imgs.length > 1 ? (
         <>
-          <Box position={"relative"}>
+          <Box height={"80%"} mb={2}>
             <Swiper
+              loop={true}
+              spaceBetween={10}
               grabCursor={true}
               pagination={{
                 clickable: true,
               }}
               autoplay={{
-                delay: 5000,
+                delay: Math.floor(Math.random() * 12000) + 2000,
+                disableOnInteraction: false,
               }}
               modules={[Pagination, Autoplay]}
-              className="TrendingsProductSwiper fullWidth fullHeight position-relative"
+              className="TrendingsProductSwiper position-relative fullWidth fullHeight"
             >
               <Box position={"relative"} zIndex={1}>
                 {imgs.map((img, i) => {
@@ -41,7 +52,12 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
                       <img
                         src={img}
                         alt={title}
-                        className="img-responsive rounded-20px max-w-300px"
+                        className="rounded-20px"
+                        style={{
+                          objectFit: "cover",
+                          width: "100%",
+                          height: "100%",
+                        }}
                       />
                     </SwiperSlide>
                   );
@@ -54,7 +70,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
               variant="body2"
               fontWeight={500}
               color="black"
-              mb={1}
+              m={"0 !important"}
               height={"40px"}
             >
               {sliceTitle(title)}
@@ -150,11 +166,12 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
         </>
       ) : (
         <>
-          <Box position={"relative"}>
+          <Box height={"80%"} mb={2}>
             <img
               src={imgs[0]}
               alt={title}
-              className="img-responsive rounded-20px max-w-300px"
+              className="rounded-20px"
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
             />
           </Box>
           <Box textAlign={{ xs: "center", sm: "start" }}>
@@ -162,7 +179,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
               variant="body2"
               fontWeight={500}
               color="black"
-              mb={1}
+              m={"0 !important"}
               height={"40px"}
             >
               {sliceTitle(title)}
@@ -257,7 +274,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
           </Box>
         </>
       )}
-    </Box>
+    </Grid>
   );
 };
 

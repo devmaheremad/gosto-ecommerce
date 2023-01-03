@@ -1,11 +1,11 @@
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { trendingsProducts } from "../../data/trendingsProducts";
 import { HeadingSection } from "../index";
 import TrendingsProduct from "./TrendingsProduct";
 
 const TrendingsProducts = () => {
   return (
-    <Box mb={10} maxWidth={"2500px"} mx={"auto"}>
+    <Box mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
       <HeadingSection
         textAlign="center"
         h4Words="Trendings Products"
@@ -13,18 +13,11 @@ const TrendingsProducts = () => {
         attention."
         h4WordsColor="black"
       />
-      <Box
-        mt={6}
-        gap={"25px"}
-        display={"flex"}
-        flexWrap={"wrap"}
-        alignItems={"center"}
-        justifyContent={"center"}
-      >
+      <Grid container mt={6} spacing={"15px"}>
         {trendingsProducts.map((product, i) => {
           return <TrendingsProduct product={product} key={i} />;
         })}
-      </Box>
+      </Grid>
     </Box>
   );
 };

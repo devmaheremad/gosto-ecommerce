@@ -5,9 +5,9 @@ const BestProducts = () => {
   return (
     <Stack
       spacing={2}
-      px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
-      sx={{ flexGrow: 1 }}
       maxWidth={"2500px"}
+      p={2}
+      sx={{ flexGrow: 1 }}
       mx={"auto"}
       direction={{ xs: "column", lg: "row" }}
       mb={10}
