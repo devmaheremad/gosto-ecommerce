@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { trendingsProducts } from "../../json/trendingsProducts";
+import { trendingsProducts } from "../../data/trendingsProducts";
 import { HeadingSection } from "../index";
 import TrendingsProduct from "./TrendingsProduct";
 

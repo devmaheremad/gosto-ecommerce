@@ -3,7 +3,7 @@ import { HeadingSection } from "../index";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Importing TestimonialsData
-import TestimonialsData from "../../json/testimonials.json";
+import TestimonialsData from "../../data/testimonials.json";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

@@ -10,7 +10,7 @@ import { FreeMode, Navigation, Autoplay } from "swiper";
 import {
   categoriesSwiperImg,
   categoriesSwiperSvg,
-} from "../json/categoriesSwiper";
+} from "../data/categoriesSwiper";
 
 const Categories = () => {
   return (

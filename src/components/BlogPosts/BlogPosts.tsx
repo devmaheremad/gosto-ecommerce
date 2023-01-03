@@ -3,14 +3,13 @@ import { HeadingSection } from "../index";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Importing TestimonialsData
-import BlogData from "../../json/blog.json";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
 import BlogCard from "./BlogCard";
+import { blogsData } from "../../data/blogsData";
 
 const BlogPosts = () => {
   return (
@@ -34,9 +33,6 @@ const BlogPosts = () => {
           loop={true}
           slidesPerView={1}
           spaceBetween={20}
-          pagination={{
-            clickable: true,
-          }}
           breakpoints={{
             620: {
               slidesPerView: 2,
@@ -48,17 +44,16 @@ const BlogPosts = () => {
               slidesPerView: 4,
             },
           }}
-          modules={[Pagination]}
           className="testimonialsSwiper fullWidth fullHeight pt-32px h-365px"
         >
-          {/* {BlogData &&
-            BlogData.map((blog, index) => {
+          {blogsData &&
+            blogsData.map((blog, index) => {
               return (
                 <SwiperSlide key={index}>
                   <BlogCard blog={blog} />
                 </SwiperSlide>
               );
-            })} */}
+            })}
         </Swiper>
       </Box>
     </Box>
