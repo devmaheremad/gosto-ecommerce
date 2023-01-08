@@ -27,6 +27,7 @@ const Navbar = () => {
   return (
     <>
       <AppBar
+        data-aos="zoom-in-down"
         className="mainNavbar"
         position="static"
         color="transparent"

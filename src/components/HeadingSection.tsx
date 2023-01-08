@@ -10,6 +10,8 @@ const HeadingSection = ({
   return (
     <>
       <Typography
+        data-aos="fade-up"
+        data-aos-offset="50"
         variant="h4"
         fontWeight={500}
         textAlign={
@@ -20,6 +22,9 @@ const HeadingSection = ({
         {h4Words}
       </Typography>
       <Typography
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-delay="250"
         maxWidth={"500px"}
         mx={"auto"}
         variant="subtitle1"

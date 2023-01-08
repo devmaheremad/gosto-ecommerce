@@ -15,6 +15,8 @@ import {
 const Categories = () => {
   return (
     <Box
+      data-aos="fade-up"
+      data-aos-delay="550"
       component={"section"}
       mb={10}
       display={"flex"}

@@ -19,7 +19,15 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
   };
 
   return (
-    <Grid item xs={12} sm={6} md={3} position={"relative"}>
+    <Grid
+      item
+      xs={12}
+      sm={6}
+      md={3}
+      position={"relative"}
+      data-aos="fade-up"
+      // data-aos-delay={index * 100}
+    >
       {imgs.length > 1 ? (
         <>
           <Box height={"65%"} mb={2}>

@@ -11,6 +11,8 @@ import { HeroSectionBG } from "../images";
 const HeroHeader = () => {
   return (
     <Stack
+      data-aos="zoom-in-down"
+      data-aos-delay="350"
       component={"section"}
       mb={6}
       px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}

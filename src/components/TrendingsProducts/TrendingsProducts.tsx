@@ -20,8 +20,8 @@ const TrendingsProducts = () => {
         h4WordsColor="black"
       />
       <Grid container mt={6} spacing={"20px"}>
-        {trendingsProducts.map((product, i) => {
-          return <TrendingsProduct product={product} key={i} />;
+        {trendingsProducts.map((product) => {
+          return <TrendingsProduct product={product} />;
         })}
       </Grid>
     </Box>
