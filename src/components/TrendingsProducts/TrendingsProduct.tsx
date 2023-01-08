@@ -15,19 +15,11 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
 
   // create a function to slice the product title
   const sliceTitle = (title: string): string => {
-    return title.length > 50 ? `${title.substring(0, 50)}...` : title;
+    return title.length > 45 ? `${title.substring(0, 45)}...` : title;
   };
 
   return (
-    <Grid
-      item
-      xs={12}
-      sm={6}
-      lg={3}
-      xl={2}
-      position={"relative"}
-      height={"300px"}
-    >
+    <Grid item xs={12} sm={6} md={3} position={"relative"}>
       {imgs.length > 1 ? (
         <>
           <Box height={"65%"} mb={2}>
