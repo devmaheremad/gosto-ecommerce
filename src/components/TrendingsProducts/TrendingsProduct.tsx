@@ -15,7 +15,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
 
   // create a function to slice the product title
   const sliceTitle = (title: string): string => {
-    return title.length > 76 ? `${title.substring(0, 76)}...` : title;
+    return title.length > 50 ? `${title.substring(0, 50)}...` : title;
   };
 
   return (
@@ -23,14 +23,14 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
       item
       xs={12}
       sm={6}
-      lg={4}
-      xl={3}
+      lg={3}
+      xl={2}
       position={"relative"}
-      height={"600px"}
+      height={"300px"}
     >
       {imgs.length > 1 ? (
         <>
-          <Box height={"80%"} mb={2}>
+          <Box height={"65%"} mb={2}>
             <Swiper
               loop={true}
               spaceBetween={10}
@@ -50,13 +50,13 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
                   return (
                     <SwiperSlide key={i}>
                       <img
+                        width={"100%"}
+                        height={"100%"}
                         src={img}
                         alt={title}
                         className="rounded-20px"
                         style={{
                           objectFit: "cover",
-                          width: "100%",
-                          height: "100%",
                         }}
                       />
                     </SwiperSlide>
@@ -166,7 +166,7 @@ const TrendingsProduct = ({ product }: TrendingsProductTypeProps) => {
         </>
       ) : (
         <>
-          <Box height={"80%"} mb={2}>
+          <Box height={"65%"} mb={2}>
             <img
               src={imgs[0]}
               alt={title}

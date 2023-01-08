@@ -5,7 +5,13 @@ import TrendingsProduct from "./TrendingsProduct";
 
 const TrendingsProducts = () => {
   return (
-    <Box component={"section"} mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
+    <Box
+      component={"section"}
+      mb={10}
+      maxWidth={{ xs: "95%", md: "90%", lg: "1550px" }}
+      mx={"auto"}
+      p={2}
+    >
       <HeadingSection
         textAlign="center"
         h4Words="Trendings Products"
@@ -13,7 +19,7 @@ const TrendingsProducts = () => {
         attention."
         h4WordsColor="black"
       />
-      <Grid container mt={6} spacing={"15px"}>
+      <Grid container mt={6} spacing={"20px"}>
         {trendingsProducts.map((product, i) => {
           return <TrendingsProduct product={product} key={i} />;
         })}

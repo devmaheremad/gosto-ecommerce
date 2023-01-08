@@ -4,15 +4,13 @@ import SocialLink from "./SocialLink";
 
 const Footer = () => {
   return (
-    <Box
-      component={"footer"}
-      py={8}
-      bgcolor={"#312620"}
-      color={"#f6f7f8"}
-      px={{ xs: 2, sm: 3, md: 4, lg: 8, xl: 10 }}
-    >
-      <Grid container spacing={2} maxWidth={"2500px"} mx={"auto"}>
-        <Grid item xs={12} md={6}>
+    <Box component={"footer"} py={8} bgcolor={"#312620"} color={"#f6f7f8"}>
+      <Grid
+        container
+        maxWidth={{ xs: "95%", md: "90%", lg: "1550px" }}
+        mx={"auto"}
+      >
+        <Grid item xs={12} md={6} mb={{ xs: 2, md: 0 }}>
           <Link to="/gosto-ecommerce">
             <svg
               xmlns="http://www.w3.org/2000/svg"

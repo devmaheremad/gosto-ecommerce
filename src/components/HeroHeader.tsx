@@ -49,6 +49,7 @@ const HeroHeader = () => {
         variant="h4"
         fontWeight={"500"}
         color="black"
+        fontSize={{ xs: "30px", sm: "2.125rem" }}
       >
         Resources,
         <Typography
@@ -56,6 +57,7 @@ const HeroHeader = () => {
           fontWeight={"500"}
           component={"span"}
           color="primary"
+          fontSize={{ xs: "30px", sm: "2.125rem" }}
         >
           Graphic & Website
         </Typography>{" "}

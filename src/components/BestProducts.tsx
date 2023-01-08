@@ -6,9 +6,9 @@ const BestProducts = () => {
     <Stack
       component={"section"}
       spacing={2}
-      maxWidth={"2500px"}
       p={2}
       sx={{ flexGrow: 1 }}
+      maxWidth={{ xs: "95%", md: "90%", lg: "1550px" }}
       mx={"auto"}
       direction={{ xs: "column", lg: "row" }}
       mb={10}

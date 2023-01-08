@@ -9,7 +9,7 @@ const TopSellingProducts = () => {
       component={"section"}
       direction={"column"}
       mb={10}
-      maxWidth={"2500px"}
+      maxWidth={{ xs: "95%", md: "90%", lg: "1550px" }}
       mx={"auto"}
       p={2}
     >

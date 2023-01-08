@@ -15,7 +15,13 @@ import { blogsData } from "../../data/blogsData";
 
 const BlogPosts = () => {
   return (
-    <Box component={"section"} mb={10} maxWidth={"2500px"} mx={"auto"} p={2}>
+    <Box
+      component={"section"}
+      mb={10}
+      maxWidth={{ xs: "95%", md: "90%", lg: "1550px" }}
+      mx={"auto"}
+      p={2}
+    >
       <HeadingSection
         textAlign="center"
         h4Words="Latest Blog Posts"
