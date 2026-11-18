@@ -1,26 +1,33 @@
-# **Gosto E-Commerce Project**
+# Gosto Modern Ecommerce
 
-###### [Watch it here live](https://devmaheremad.github.io/gosto-ecommerce/)
+An e-commerce storefront for selling website templates and graphics: a responsive React + TypeScript home page with
+sliders, pricing plans and scroll animations.
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/P6q1KQN/1.webp)
+**[Live demo](https://devmaheremad.com/gosto-ecommerce/)** · [More of my work](https://devmaheremad.com)
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/MsXrgYc/2.webp)
+![Gosto Modern Ecommerce home page](docs/preview.webp)
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/cy5p3z5/3.webp)
+## What's inside
+- **Home page built from typed, reusable sections:** hero, categories, trending products, best products, top-selling
+  products, pricing plans (Free, Premium, Unlimited), testimonials and blog posts. Prop types live in `src/@types/`.
+- **Sliders** with Swiper 8 and **scroll animations** with AOS.
+- **Material UI 5** with a custom theme and responsive layouts.
+- **React Router 6.** Routes for shop, about, blog, contact, profile and favorites are in place for the next pages.
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/3SKt1B2/4.webp)
+## Stack
+React 18 · TypeScript · Material UI 5 · Swiper 8 · AOS · React Router 6
 
-###### ![Gosto E-Commerce home page](https://i.ibb.co/C1RzV6L/5.webp)
+## Run locally
+```bash
+git clone https://github.com/devmaheremad/gosto-ecommerce.git
+cd gosto-ecommerce
+npm install
+npm start
+```
 
-### - Introduction about Gosto E-Commerce:
+`npm run deploy` builds the app and publishes it to GitHub Pages.
 
-The idea here it's simple, you can browse and buy a lot of landing pages, WordPress Themes,eCommerce Templates, Site Templates, CMS Templates, Mockup designs, Image Stock, and more.
+---
 
-#### - What I used technologies to build Gosto E-Commerce?
-
-The important things I used to create Gosto E-Commerce are (ReactJS v18.2.0, TypeScript 4.9, Material UI v5.11.1, and swiper)
-
-#### - What I working on now?
-
-What am I working on now?
-I'm working on the home page and the others page, creating a cart section and after that I will drive deep to the functionality of the store
+**Maher Almashharawi** · Senior Frontend Engineer (React, Next.js, TypeScript)
+[devmaheremad.com](https://devmaheremad.com) · [Case studies](https://devmaheremad.com/case-studies/) · [LinkedIn](https://www.linkedin.com/in/devmaheremad) · hello@devmaheremad.com
